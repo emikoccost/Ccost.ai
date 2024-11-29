@@ -1,0 +1,14 @@
+# Model parameters
+sarima_order: [ 1, 1, 1 ]
+seasonal_order: [ 1, 1, 1, 12 ]
+
+# Training parameters
+train_size: 0.8
+
+# Paths
+data_path: "supermarket_sales_100_rows.csv"
+model_save_path: "models/"
+plots_save_path: "plots/"
+
+# Logging
+log_level: "INFO"
