@@ -6,7 +6,7 @@ seasonal_order: [ 1, 1, 1, 12 ]
 train_size: 0.8
 
 # Paths
-data_path: "supermarket_sales_100_rows.csv"
+data_path: "supermarket_sales.csv"
 model_save_path: "models/"
 plots_save_path: "plots/"
 
